@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Mutually Exclusive Habilities</name>
+	<author>JaoSchmidt</author>
+	<description>Makes all non sanguophage abilities mutally exclusive. This allows a little more options when creating your pawn xenogerms</description>
+	<packageId>Jaoschmidt.mutallyexclusivehabilities</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	 <modIconPath IgnoreIfNoMatchingField="True">UI/gene</modIconPath>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+	</loadAfter>
+</ModMetaData>
