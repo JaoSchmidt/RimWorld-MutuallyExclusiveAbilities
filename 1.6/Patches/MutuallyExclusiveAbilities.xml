@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Patch>
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Ludeon.RimWorld.Biotech</li>
+      <li>Biotech</li>
     </mods>
     <match Class="PatchOperationAdd">
       <xpath>Defs/GeneDef[defName="FireSpew"]</xpath>
@@ -17,7 +17,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Ludeon.RimWorld.Biotech</li>
+      <li>Biotech</li>
     </mods>
     <match Class="PatchOperationAdd">
       <xpath>Defs/GeneDef[defName="FoamSpray"]</xpath>
@@ -31,7 +31,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Ludeon.RimWorld.Biotech</li>
+      <li>Biotech</li>
     </mods>
     <match Class="PatchOperationAdd">
       <xpath>Defs/GeneDef[defName="AnimalWarcall"]</xpath>
@@ -45,7 +45,7 @@
 
   <Operation Class="PatchOperationFindMod">
     <mods>
-      <li>Ludeon.RimWorld.Biotech</li>
+      <li>Biotech</li>
     </mods>
     <match Class="PatchOperationAdd">
       <xpath>Defs/GeneDef[defName="AcidSpray"]</xpath>
@@ -57,4 +57,4 @@
     </match>
   </Operation>
 
-</Defs>
+</Patch>
