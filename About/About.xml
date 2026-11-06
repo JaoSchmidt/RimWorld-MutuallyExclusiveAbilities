@@ -6,6 +6,7 @@
 	<packageId>Jaoschmidt.mutallyexclusivehabilities</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	 <modIconPath IgnoreIfNoMatchingField="True">UI/gene</modIconPath>
 	<loadAfter>

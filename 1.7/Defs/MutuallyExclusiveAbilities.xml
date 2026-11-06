@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ludeon.RimWorld.Biotech</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/GeneDef[defName="FireSpew"]</xpath>
+      <value>
+        <exclusionTags>
+          <li>MutuallyExclusiveAbility</li>
+        </exclusionTags>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ludeon.RimWorld.Biotech</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/GeneDef[defName="FoamSpray"]</xpath>
+      <value>
+        <exclusionTags>
+          <li>MutuallyExclusiveAbility</li>
+        </exclusionTags>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ludeon.RimWorld.Biotech</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/GeneDef[defName="AnimalWarcall"]</xpath>
+      <value>
+        <exclusionTags>
+          <li>MutuallyExclusiveAbility</li>
+        </exclusionTags>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ludeon.RimWorld.Biotech</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/GeneDef[defName="AcidSpray"]</xpath>
+      <value>
+        <exclusionTags>
+          <li>MutuallyExclusiveAbility</li>
+        </exclusionTags>
+      </value>
+    </match>
+  </Operation>
+
+</Defs>
